@@ -12,6 +12,6 @@ git add .
 @echo WRITE UPDATE AND PRESS ENTER:
 ::set /p GetYourLog=
 git commit -m "%date% %time%"
-git push
+git push --set-upstream origin main --force
 timeout /t 10
 exit
